@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" role="img" aria-labelledby="t"><title id="t">Sample CTS-2010 cheque printed with Cheque Printer</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eaf4ff"/><stop offset="1" stop-color="#f2fbf4"/></linearGradient></defs>
+<rect x="4" y="4" width="552" height="252" rx="6" fill="url(#g)" stroke="#9bb7c2"/>
+<g font-family="system-ui,sans-serif" fill="#5b7480" font-size="10">
+<text x="150" y="26" font-size="13" font-weight="700" fill="#2b4b5a">YOUR BANK NAME</text><text x="150" y="40">Branch · IFSC XXXX0000000</text>
+<text x="20" y="250" font-size="9">CTS-2010</text>
+<text x="20" y="96">Pay</text><text x="20" y="128">Rupees</text><text x="20" y="156">रुपये</text>
+<text x="388" y="184">₹</text><text x="400" y="232">Authorised signatory</text></g>
+<g fill="none" stroke="#9bb7c2"><path d="M44 98H540M62 130H540M20 160H370"/><rect x="380" y="166" width="160" height="26" rx="3"/>
+<g>
+<rect x="372" y="16" width="20" height="22"/><rect x="392" y="16" width="20" height="22"/><rect x="412" y="16" width="20" height="22"/><rect x="432" y="16" width="20" height="22"/><rect x="452" y="16" width="20" height="22"/><rect x="472" y="16" width="20" height="22"/><rect x="492" y="16" width="20" height="22"/><rect x="512" y="16" width="20" height="22"/></g></g>
+<rect x="4" y="206" width="370" height="22" fill="#fff" opacity=".6"/><text x="12" y="222" font-family="monospace" font-size="12" fill="#6b7f88">⑈000123⑈ 400002001⑆ 000000⑈ 29</text>
+<g font-family="'Courier New',monospace" font-weight="700" fill="#10202a">
+<g font-size="15"><text x="377" y="33">2</text><text x="397" y="33">0</text><text x="417" y="33">1</text><text x="437" y="33">1</text><text x="457" y="33">2</text><text x="477" y="33">0</text><text x="497" y="33">2</text><text x="517" y="33">6</text></g>
+<text x="56" y="94" font-size="15">ABC Traders Pvt Ltd</text>
+<text x="74" y="126" font-size="13">One Lakh Twenty Five Thousand</text>
+<text x="40" y="156" font-size="13">Only</text>
+<text x="398" y="185" font-size="15">1,25,000.00/-</text></g>
+<g stroke="#10202a" stroke-width="1.6"><path d="M16 46L74 12M30 54L88 20"/></g>
+<text x="40" y="38" transform="rotate(-30 40 38)" font-family="system-ui,sans-serif" font-size="8.5" font-weight="700" fill="#10202a">A/C PAYEE ONLY</text>
+</svg>

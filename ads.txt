@@ -1,0 +1,2 @@
+# TODO(adsense): replace pub-XXXXXXXXXXXXXXXX with your publisher ID (the digits from ca-pub-…).
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

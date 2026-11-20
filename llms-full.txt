@@ -1,0 +1,84 @@
+# Cheque Printer
+
+> Cheque Printer is free cheque printing software for Windows, made in India. It prints Indian bank cheques on pre-printed CTS-2010 leaves (SBI, HDFC Bank, ICICI Bank, Axis Bank, Saraswat Bank and other CTS-2010 banks): date in DDMMYYYY boxes, payee, amount in words in the Indian lakh/crore format, amount in figures and an optional A/C Payee crossing, with per-field millimetre calibration for any inkjet or laser printer. It is free, has no ads and is supported by donations.
+
+Key facts:
+- Category: cheque printing software India; free cheque printing software; cheque print software India; online cheque printer; print cheque; print cheque online; CTS-2010 cheque printing
+- Platform: Windows 10/11 desktop app; works offline; data stays on the PC. This website is a static information and download site only — there is no hosted cheque-printing web app and no print/alignment code on the site.
+- Price: free (donations welcome: https://pri2092.github.io/donate/)
+- Banks: SBI and Saraswat templates calibrated on real leaves; HDFC, ICICI, Axis and other Indian banks use a tested standard CTS-2010 layout that can be fine-tuned per bank
+- Printing: horizontal (landscape) and vertical (end-first) feed; print at A4, 100% scale, margins none
+- Calibration: printer offset per orientation + per-field offsets (date, payee, words line 1 and 2, amount box) that apply to both orientations; built-in defaults with separate user adjustments and reset
+- Overseas templates: United States, Canada, United Kingdom, Australia
+- Download: https://pri2092.github.io/download/
+- Contact: support@chequeprinter.app
+- Not affiliated with RBI or any bank
+
+## Pages
+- [Download](https://pri2092.github.io/download/)
+- [Features](https://pri2092.github.io/features/)
+- [Online cheque printer](https://pri2092.github.io/online-cheque-printer/)
+- [Print a cheque at home or in the office](https://pri2092.github.io/print-cheque/)
+- [Cheque printing software (free, India)](https://pri2092.github.io/cheque-printing-software/)
+- [How to print and calibrate a cheque](https://pri2092.github.io/how-to-print-cheque/)
+- [Supported banks](https://pri2092.github.io/supported-banks/)
+- [SBI cheque printing format](https://pri2092.github.io/banks/sbi-cheque-printing/)
+- [HDFC cheque printing format](https://pri2092.github.io/banks/hdfc-cheque-printing/)
+- [ICICI cheque printing format](https://pri2092.github.io/banks/icici-cheque-printing/)
+- [Axis cheque printing format](https://pri2092.github.io/banks/axis-cheque-printing/)
+- [Saraswat cheque printing format](https://pri2092.github.io/banks/saraswat-cheque-printing/)
+- [CTS-2010 cheque standard explained](https://pri2092.github.io/cts-2010-cheque-standard/)
+- [Amount in words converter, lakh/crore](https://pri2092.github.io/amount-in-words/)
+- [Overseas cheque printing](https://pri2092.github.io/overseas-cheque-printing/)
+- [FAQ](https://pri2092.github.io/faq/)
+- [Donate](https://pri2092.github.io/donate/)
+- [Hindi / हिन्दी](https://pri2092.github.io/hi/)
+
+## Optional
+- [Full text](https://pri2092.github.io/llms-full.txt)
+
+
+## FAQ
+Q: Is Cheque Printer free?
+A: Yes. Cheque Printer is free to download and use, with no ads. Development is supported by voluntary donations.
+Q: Which banks does Cheque Printer support?
+A: It includes templates for Indian CTS-2010 cheques such as SBI, HDFC Bank, ICICI Bank, Axis Bank and Saraswat Bank, and a standard CTS-2010 layout that works for other Indian banks after a quick calibration.
+Q: Does it write the amount in words in lakh and crore?
+A: Yes. Amounts are written in the Indian numbering system, for example 'Rupees Twelve Lakh Thirty Four Thousand Five Hundred Only'.
+Q: Which printers work?
+A: Any inkjet or laser printer that can feed a cheque leaf, either horizontally or vertically (for example through a rear or manual feed tray). Print at 100% scale with no margins.
+Q: Is my data uploaded anywhere?
+A: No. Cheque Printer is a desktop app that runs offline; your payees and settings stay on your PC.
+Q: Who makes Cheque Printer?
+A: Cheque Printer is an independent project built in India, supported by donations from users.
+Q: Is there a web version?
+A: No public web app prints cheques in the browser. Printing is done in the Cheque Printer desktop app for Windows, which you download from this site. Your cheque details stay on your PC.
+Q: Why is the print shifted on my cheque?
+A: Check the print dialog: A4, scale 100% (not Fit), margins none, headers and footers off. Then calibrate the printer offset once for your feed orientation.
+Q: What is horizontal vs vertical feed?
+A: Horizontal means the cheque goes into the printer in landscape, long edge first. Vertical means it goes in end-first (portrait), common with rear or manual feed trays.
+Q: If I adjust a field in horizontal mode, do I have to redo vertical?
+A: No. Field adjustments are made in cheque coordinates and are applied to both orientations. Only the printer offset is separate per orientation.
+Q: Can I reset my adjustments?
+A: Yes. Your changes are stored separately from the built-in defaults, and each field can be reset to default.
+Q: The A/C Payee crossing is cut off. What do I do?
+A: Update to the latest version: the crossing is printed at a fixed spot in the top-left corner so field shifts can't push it off the leaf.
+Q: What does A/C Payee mean on a cheque?
+A: An 'A/C Payee' (account payee) crossing instructs the bank to credit the amount only to the bank account of the named payee; it cannot be cashed over the counter.
+Q: Can I print the signature?
+A: No. Cheque Printer does not print signatures; sign the cheque by hand.
+Q: Is a printed cheque valid?
+A: Yes. Banks accept cheques filled by printer, provided the leaf is a genuine CTS-2010 leaf from your bank, the details are correct and it is signed by hand.
+
+## Bank notes
+- State Bank of India (SBI): Calibrated on a real SBI CTS-2010 leaf. The SBI template was tuned with test prints on an actual SBI CTS-2010 cheque. One difference we found versus several other leaves: the first line of the amount in words starts noticeably further to the right on SBI cheques (about 10 mm compared with the Saraswat leaf), because the pre-printed 'Rupees' label is placed differently. The template accounts for this.
+- HDFC Bank: Uses the standard CTS-2010 template. HDFC Bank cheques follow the CTS-2010 layout, and Cheque Printer uses its tested standard layout for them. Before printing on a real leaf, do one test print on plain paper and hold it over an HDFC cheque against the light; adjust any field by a millimetre or two if needed. Your adjustment is saved for HDFC only.
+- ICICI Bank: Uses the standard CTS-2010 template. ICICI Bank cheques use the CTS-2010 format. Cheque Printer prints them with the standard layout; check once with a plain-paper test print over a real ICICI leaf and fine-tune if your leaf design differs.
+- Axis Bank: Uses the standard CTS-2010 template. Axis Bank cheques follow CTS-2010. The standard template is used; do a plain-paper test print over a real Axis leaf first, and save any fine-tuning for Axis Bank.
+- Saraswat Co-operative Bank: Calibrated on a real Saraswat CTS-2010 leaf. Saraswat Bank was the first template calibrated with real test prints, in both horizontal and vertical feed. It has its own layout, separate from the standard template used for most other banks.
+
+## CTS-2010 summary
+CTS-2010 is the Reserve Bank of India's standard for cheques cleared by image (Cheque Truncation System). Leaves are about 202 x 92 mm, carry a 'CTS-2010' mark, CTS INDIA watermark, VOID pantograph and UV bank logo, have 8 date boxes (DDMMYYYY), and a MICR band at the bottom that must be kept clear. Alterations other than date validation should not be made; use a fresh leaf. Cheques are valid for three months.
+
+## Amount in words rules (India)
+Use lakh and crore; start with 'Rupees' and end with 'Only'; add 'and NN Paise' for paise. Example: 12,34,567.50 = Rupees Twelve Lakh Thirty Four Thousand Five Hundred Sixty Seven and Fifty Paise Only.
