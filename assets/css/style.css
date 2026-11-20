@@ -18,7 +18,7 @@ h3{font-size:1.2rem;margin:1.4em 0 .4em}
 .site-header{background:var(--header-bg);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
 .header-in{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;min-height:62px}
 .brand{display:flex;align-items:center;gap:.5rem;font-weight:800;font-size:1.2rem;text-decoration:none;color:var(--ink-strong)}
-.brand svg{width:34px;height:34px}
+.brand svg,.brand img.brand-logo{width:34px;height:34px;border-radius:8px;display:block;flex-shrink:0}
 .nav-toggle{display:none;margin-left:auto;background:none;border:1px solid var(--line);border-radius:8px;padding:.4rem .5rem;line-height:0;font:inherit;color:var(--ink-strong);cursor:pointer}
 .site-nav{width:100%}
 .js .nav-toggle{display:inline-block}
@@ -73,7 +73,7 @@ summary{cursor:pointer;font-weight:700;color:var(--ink-strong)}
 .site-footer ul{list-style:none;padding:0;margin:0}
 .site-footer li{margin:.3rem 0}
 .foot-brand{display:flex;align-items:center;gap:.5rem;margin:0 0 .4rem}
-.foot-brand svg{width:28px;height:28px}
+.foot-brand svg,.foot-brand img.brand-logo{width:28px;height:28px;border-radius:7px;display:block;flex-shrink:0}
 .foot-bottom{border-top:1px solid rgba(255,255,255,.18);margin-top:1.6rem;padding-top:1rem;font-size:.88rem}
 .badge{display:inline-block;font-size:.8rem;font-weight:700;padding:.15rem .55rem;border-radius:999px;background:var(--alt-bg);border:1px solid var(--line);color:var(--ink-strong)}
 .todo{background:#fff3cd;color:#5c4400;border:1px dashed #b38600;padding:.1rem .4rem;border-radius:6px;font-size:.85rem}
@@ -101,7 +101,7 @@ form.contact input,form.contact textarea,form.contact select{width:100%;padding:
 .btn-donate:hover{background:var(--donate-strong)}
 .header-in .btn-donate{order:1}
 @media(max-width:959px){.header-in .btn-donate{margin-left:auto}.js .nav-toggle{margin-left:0;order:2}.site-nav{order:3}}
-@media(max-width:480px){.brand{font-size:1.02rem}.brand svg{width:28px;height:28px}.header-in{gap:.5rem}.header-in .btn-sm{padding:.4rem .6rem}}
+@media(max-width:480px){.brand{font-size:1.02rem}.brand svg,.brand img.brand-logo{width:28px;height:28px}.header-in{gap:.5rem}.header-in .btn-sm{padding:.4rem .6rem}}
 @media(min-width:960px){.header-in .btn-donate{order:3;margin-left:.6rem}}
 .donate-band{background:var(--band-bg);color:#fff;padding:2.2rem 0}
 .donate-band h2{color:#fff;margin-top:0;display:flex;align-items:center;gap:.5rem}
@@ -165,3 +165,15 @@ iframe[src*="razorpay"],
 iframe[name*="razorpay"]{z-index:2147483646!important}
 .sha256-line{overflow-x:auto}
 .sha256-line code{display:inline-block;word-break:break-all;font-size:.92em}
+
+/* Download architecture cards */
+.download-archs{display:grid;gap:1rem;margin:1.4rem 0 1.6rem}
+@media(min-width:800px){.download-archs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.download-arch{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.15rem 1.2rem;display:flex;flex-direction:column}
+.download-arch.recommended{border-color:var(--accent);box-shadow:0 0 0 2px rgba(11,107,122,.18)}
+.download-arch .arch-kicker{margin:0 0 .35rem;display:flex;align-items:center;gap:.45rem;flex-wrap:wrap}
+.download-arch h2{margin:.1rem 0 .4rem;font-size:1.2rem}
+.download-arch .arch-note{color:var(--muted);font-size:.95rem;margin:0 0 .9rem;flex:1}
+.download-arch .btn{width:100%}
+.download-arch .sha256-line{margin:.75rem 0 0}
+.pill-rec{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--alt-bg);color:var(--accent-strong);border-radius:999px;padding:.18rem .55rem}
