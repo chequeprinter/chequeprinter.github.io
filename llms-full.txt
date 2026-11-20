@@ -5,37 +5,37 @@
 Key facts:
 - Category: cheque printing software India; free cheque printing software; cheque print software India; online cheque printer; print cheque; print cheque online; CTS-2010 cheque printing
 - Platform: Windows 10/11 desktop app; works offline; data stays on the PC. This website is a static information and download site only — there is no hosted cheque-printing web app and no print/alignment code on the site.
-- Price: free (donations welcome: https://pri2092.github.io/donate/)
+- Price: free (donations welcome: https://chequeprinter.github.io/donate/)
 - Banks: SBI and Saraswat templates calibrated on real leaves; HDFC, ICICI, Axis and other Indian banks use a tested standard CTS-2010 layout that can be fine-tuned per bank
 - Printing: horizontal (landscape) and vertical (end-first) feed; print at A4, 100% scale, margins none
 - Calibration: printer offset per orientation + per-field offsets (date, payee, words line 1 and 2, amount box) that apply to both orientations; built-in defaults with separate user adjustments and reset
 - Overseas templates: United States, Canada, United Kingdom, Australia
-- Download: https://pri2092.github.io/download/
+- Download: https://chequeprinter.github.io/download/
 - Contact: support@chequeprinter.app
 - Not affiliated with RBI or any bank
 
 ## Pages
-- [Download](https://pri2092.github.io/download/)
-- [Features](https://pri2092.github.io/features/)
-- [Online cheque printer](https://pri2092.github.io/online-cheque-printer/)
-- [Print a cheque at home or in the office](https://pri2092.github.io/print-cheque/)
-- [Cheque printing software (free, India)](https://pri2092.github.io/cheque-printing-software/)
-- [How to print and calibrate a cheque](https://pri2092.github.io/how-to-print-cheque/)
-- [Supported banks](https://pri2092.github.io/supported-banks/)
-- [SBI cheque printing format](https://pri2092.github.io/banks/sbi-cheque-printing/)
-- [HDFC cheque printing format](https://pri2092.github.io/banks/hdfc-cheque-printing/)
-- [ICICI cheque printing format](https://pri2092.github.io/banks/icici-cheque-printing/)
-- [Axis cheque printing format](https://pri2092.github.io/banks/axis-cheque-printing/)
-- [Saraswat cheque printing format](https://pri2092.github.io/banks/saraswat-cheque-printing/)
-- [CTS-2010 cheque standard explained](https://pri2092.github.io/cts-2010-cheque-standard/)
-- [Amount in words converter, lakh/crore](https://pri2092.github.io/amount-in-words/)
-- [Overseas cheque printing](https://pri2092.github.io/overseas-cheque-printing/)
-- [FAQ](https://pri2092.github.io/faq/)
-- [Donate](https://pri2092.github.io/donate/)
-- [Hindi / हिन्दी](https://pri2092.github.io/hi/)
+- [Download](https://chequeprinter.github.io/download/)
+- [Features](https://chequeprinter.github.io/features/)
+- [Online cheque printer](https://chequeprinter.github.io/online-cheque-printer/)
+- [Print a cheque at home or in the office](https://chequeprinter.github.io/print-cheque/)
+- [Cheque printing software (free, India)](https://chequeprinter.github.io/cheque-printing-software/)
+- [How to print and calibrate a cheque](https://chequeprinter.github.io/how-to-print-cheque/)
+- [Supported banks](https://chequeprinter.github.io/supported-banks/)
+- [SBI cheque printing format](https://chequeprinter.github.io/banks/sbi-cheque-printing/)
+- [HDFC cheque printing format](https://chequeprinter.github.io/banks/hdfc-cheque-printing/)
+- [ICICI cheque printing format](https://chequeprinter.github.io/banks/icici-cheque-printing/)
+- [Axis cheque printing format](https://chequeprinter.github.io/banks/axis-cheque-printing/)
+- [Saraswat cheque printing format](https://chequeprinter.github.io/banks/saraswat-cheque-printing/)
+- [CTS-2010 cheque standard explained](https://chequeprinter.github.io/cts-2010-cheque-standard/)
+- [Amount in words converter, lakh/crore](https://chequeprinter.github.io/amount-in-words/)
+- [Overseas cheque printing](https://chequeprinter.github.io/overseas-cheque-printing/)
+- [FAQ](https://chequeprinter.github.io/faq/)
+- [Donate](https://chequeprinter.github.io/donate/)
+- [Hindi / हिन्दी](https://chequeprinter.github.io/hi/)
 
 ## Optional
-- [Full text](https://pri2092.github.io/llms-full.txt)
+- [Full text](https://chequeprinter.github.io/llms-full.txt)
 
 
 ## FAQ

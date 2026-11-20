@@ -59,4 +59,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://pri2092.github.io/sitemap.xml
+Sitemap: https://chequeprinter.github.io/sitemap.xml
