@@ -152,3 +152,16 @@ form.contact input,form.contact textarea,form.contact select{width:100%;padding:
 .donate-option .cta-row{margin-top:auto;padding-top:.6rem}
 .razorpay-donate{margin:.8rem 0 0;min-height:3rem}
 .donate-band .btn-donate{margin-top:.4rem}
+/* Blur/dim the page (especially the UPI QR) while Razorpay checkout is open.
+   The checkout iframe is raised above this backdrop in donate.js. */
+#rzp-checkout-blur{position:fixed;inset:0;z-index:2147483000;background:rgba(8,14,18,.62);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);cursor:pointer}
+html.rzp-checkout-open .donate-option#upi,
+html.rzp-checkout-open .qr,
+body.rzp-checkout-open .donate-option#upi,
+body.rzp-checkout-open .qr{filter:blur(14px);-webkit-filter:blur(14px);pointer-events:none;user-select:none}
+iframe.razorpay-checkout-frame,
+.razorpay-container,
+iframe[src*="razorpay"],
+iframe[name*="razorpay"]{z-index:2147483646!important}
+.sha256-line{overflow-x:auto}
+.sha256-line code{display:inline-block;word-break:break-all;font-size:.92em}
