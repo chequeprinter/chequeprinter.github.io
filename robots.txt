@@ -1,5 +1,4 @@
 # robots.txt - search engines AND AI assistants are explicitly welcome.
-# TODO(domain): the Sitemap URL uses the placeholder domain.
 
 User-agent: GPTBot
 Allow: /
