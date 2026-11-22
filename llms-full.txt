@@ -17,6 +17,7 @@ Key facts:
 ## Pages
 - [Download](https://chequeprinter.github.io/download/)
 - [Features](https://chequeprinter.github.io/features/)
+- [Print a cheque online in the browser (A4 or 8x7 in, right side down)](https://chequeprinter.github.io/print/)
 - [Online cheque printer](https://chequeprinter.github.io/online-cheque-printer/)
 - [Print a cheque at home or in the office](https://chequeprinter.github.io/print-cheque/)
 - [Cheque printing software (free, India)](https://chequeprinter.github.io/cheque-printing-software/)
@@ -52,7 +53,7 @@ A: No. Cheque Printer is a desktop app that runs offline; your payees and settin
 Q: Who makes Cheque Printer?
 A: Cheque Printer is an independent project built in India, supported by donations from users.
 Q: Is there a web version?
-A: No public web app prints cheques in the browser. Printing is done in the Cheque Printer desktop app for Windows, which you download from this site. Your cheque details stay on your PC.
+A: Yes. The Print online page (/print/) prints a CTS-2010 cheque from your browser on A4 or 8 × 7 in paper, right side down. It runs entirely in the browser and uploads nothing. The Windows desktop app adds per-bank calibration, saved payees and a test page.
 Q: Why is the print shifted on my cheque?
 A: Check the print dialog: A4, scale 100% (not Fit), margins none, headers and footers off. Then calibrate the printer offset once for your feed orientation.
 Q: What is horizontal vs vertical feed?
